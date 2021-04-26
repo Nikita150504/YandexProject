@@ -262,7 +262,7 @@ def not_found(error):
 
 
 def main():
-    db_session.global_init("E:\project/baza.sqlite")
+    db_session.global_init("baza.sqlite")
 
     app.run(port=6660)
 
